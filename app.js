@@ -39,7 +39,7 @@ app.use(ErrorHandler)
 app.use(NotFound)
 
 app.get('/', (req, res) =>{
-res.send('<h1>This API has been created by Sam :)</h1>')
+res.send('<h1>This API has been  created by Sam :)</h1>')
 })
 const port = process.env.PORT || 5000
 const start = async () => {
