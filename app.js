@@ -17,7 +17,7 @@ const connect = require('./DB/connect')
 const {ErrorHandler, NotFound} = require('./middleware/ErrorHandler')
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://react-todo-app-yjla.onrender.com',
     credentials: true
 })) 
 
