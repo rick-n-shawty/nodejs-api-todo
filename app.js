@@ -5,8 +5,8 @@ const app = express()
 
 app.use(express.json())
 
-const AuthRouter = require('./Routes/Auth')
-const TaskRouter = require('./Routes/Tasks')
+const AuthRouter = require('./routes/Auth')
+const TaskRouter = require('./routes/Tasks')
 const auth = require('./middleware/auth')
 const cookieParser = require('cookie-parser')
 const helmet = require('helmet')
